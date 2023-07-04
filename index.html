@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parth Goel</title>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header >
+  <nav class="header__nav" >
+    <div class="header__nav--name">
+      <h4 id="title__Name">Parth</h4>
+    </div>
+    <div class="toggle__button"  >
+      <span class="bar" onclick="adafunction()"></span>
+      <span class="bar" onclick="adafunction()"></span>
+      <span class="bar" onclick="adafunction()"></span>
+    </div>
+    <ul class="list">
+      <li><a href="#link__home">Home</a></li>
+      <li><a href="#link__projects">Projects</a></li>
+      <li><a href="#link__about">About</a></li>
+      <li><a href="#link__contact">Contact </a></li>
+    </ul>
+  </nav>
+</header>
+<div class="scroll" id="link__home" ></div>
+ <main >
+  <section class="main">
+    <img class="leftimg" src="images/bg1.jpeg" alt="Profile">
+    <div class="main__txt"> <span id="element"></span> <br> I am <span class="main__text">Parth Goel</span>  , a college sophomere who is extremly curious , passionate and is delving into the enchanting world of technology in a quest to find his true calling. </div>
+  </section>
+  <hr>
+  <div class="scroll" id="link__projects" ></div>
+  <section class="Projects" >
+  <h4 class="Project">Projects</h4>
+    </section>
+    <section class="project1">
+   <img src="images/la.png" alt="linear_algebra" class="project1__img">
+   <section class="project1__left">
+     <h4>Linear Algebra Library</h4><br>
+     <br>
+     Made a Linear algebra library which helps you do operations on matrices such as calculating determinant,finding inverse of matrix,multiplying two matrices.....<br>
+     <button class="linear"><a href="https://github.com/goelparth1/gauss-elimination"  target="_blank">Github</a></button>
+    </section>
+</section>
+<hr class="project">
+<section class="project2">
+  <div class="project2__right">
+  <h4>Equation Solver</h4><br><br>A tool to help you solve multiple linear equations using linear algebra methods like gauss elimination.Working on one more to help you solve non linear equations as well (based on newton raspon method).<br>
+  <button class="linear"><a href="https://github.com/goelparth1/gauss-elimination"  target="_blank">Github</a></button>
+  </div>
+  <img src="images/eq.png" alt="equation" class="project2__img">
+
+</section>
+<hr>
+<section class="about" id="link__about">
+  <img src="images/about.jpeg" alt="Profile" class="about__img">
+  <div class="about__right">
+    <h4 class="about__h4">About Me</h4>
+    I am a tech enthusiast with little experience in web development,currently exploring web3.
+    <div class="about__expand">
+    <span  ><h6><strong class=" tab_title active" onclick="opentab('skills')">Skills</strong></h6></span>    
+    <span  ><h6><strong class="tab_title " onclick="opentab('edu')">Education</strong></h6></span>    
+    <span  ><h6><strong class="tab_title" onclick="opentab('clubs')">Clubs</strong></h6></span>    
+    </div>
+    <div class="info">
+      <ul>
+        <div class="tab active__tab" id="skills">
+        <li class="li__skills"><span>C++</span><br>Intermediate C++ developer.</li>
+        <li class="li__skills"><span>Web development</span><br>Know Html,Css,Javascript.</li>
+        <li class="li__skills"><span>Data Structures</span><br>Begginer in Data Structures</li>
+      </div>
+      <div class="tab" id="edu">
+        <li class="li__edu"><span>Recent</span><br>Sophomere at IIT Roorkee</li>
+        <li class="li__edu"><span>Primary</span><br>Jindal Public School.</li>
+        <li class="li__edu"><span>High School</span><br>Yaduvanshi Shiksha Niketan.</li>
+        </div>
+        <div class="tab" id="clubs">
+        <li class="li__clubs"><span>ARP</span><br>Ugta Coordinator </li>
+        <li class="li__clubs"><span>PIC</span><br>Associate Coordinator</li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</section>
+   <hr>
+<section class="contact" id ='link__contact'>
+  <div class="contact__left">
+    <h6>Contact Me</h6><br><p>I am open to colaborate ,so feel free to send a message if you have some projects in mind.Would love to hear from you!</p>
+    <!-- <ul class="contactdetails">
+      <li class="contactli"><img src="images/mail.png" alt="mail" id="mailimg"> parth@ch.iitr.ac.in</li>
+      <li class="contactli"><span>Social Handles</span></li>
+    </ul>
+    <div class="socialhandle">
+      <a href="https://instagram.com/goelparth111?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="images/ig.png" alt="insta"></a>
+      <a href="https://www.linkedin.com/in/parth-goel-098a5a248" target="_blank"><img src="images/ld.png" alt="insta" class="ld"></a>
+    </div> -->
+  </div>
+  <div class="contact__right">
+   <form>
+    <input class="form" type="text" name="name" placeholder="Your Name" required>
+    <input class="form" type="text" name="email" placeholder="Your Email" required>
+    <textarea class="form" name="message" rows="6" placeholder="Your Message"></textarea>
+    <button id="submit">Submit</button>
+   </form>
+  </div>
+</section>
+ </main>
+ <footer>
+  <div class="copyright">
+    <div class="footer__images socialhandle">
+      <a href="mailto:parth@ch.iitr.ac.in" ><img src="images/mail.png" alt="mail" id="mailimg"></a>
+      <a href="https://instagram.com/goelparth111?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="images/ig.png" alt="insta" ></a>
+      <a href="https://www.linkedin.com/in/parth-goel-098a5a248" target="_blank"><img src="images/ld.png" alt="insta" class="ld"></a>
+    </div>
+    Copyright &#169; Parth Goel<br>
+    
+  </div>
+ </footer>
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <script>
+  var typed = new Typed('#element', {
+    strings: ['Hey ', ' Hello there!'],
+    typeSpeed: 50,
+  });
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

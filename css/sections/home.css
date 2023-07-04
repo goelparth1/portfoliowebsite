@@ -1,0 +1,47 @@
+div.section{
+    display:flex;
+}
+.leftimg{
+    width:40vw;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__txt{
+    width:40%;
+    color:white;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+}
+.main__text{
+    color:whitesmoke;
+    font-size: x-large;
+}
+#element{
+    color:rgb(198, 147, 246);
+}
+
+
+
+
+/* media querries */
+@media (max-width:600px){
+
+    .leftimg{
+        width:80vw;
+        align-items: center;
+    }
+    .main__txt{
+        width:80vw;
+    }
+    
+}
+

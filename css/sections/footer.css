@@ -1,0 +1,25 @@
+.copyright{
+   background-color:black ; 
+   text-align: center;
+   padding:25px 0;
+   font-size: x-large;
+}
+.footer__images{
+   display: flex;
+   width:100%;
+   justify-content: center;
+}
+.socialhandle img{
+   width:45px;
+   margin:10px;
+   margin-bottom: 20px;
+   transform: translateY(10px);
+   transition:0.5s;
+   }
+   .socialhandle img:hover{
+       transform:scale(1.2) ;
+   }
+   #mailimg{
+       width:45px;
+       
+   }
