@@ -1,6 +1,6 @@
 .about{
     display: flex;
-    margin-top: 5%;
+    padding-top: 5%;
     
 }
 .about__img{
@@ -9,6 +9,11 @@
     margin-top:30px;
     border-radius: 15px;
 }
+#link__about{
+    height: 4rem;
+    width: 100%;
+}
+
 .about__h4{
     color:yellow;
     
