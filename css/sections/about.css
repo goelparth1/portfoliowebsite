@@ -74,6 +74,7 @@
 .tab{
     margin:2vh 0;
     display:none;
+    transition:3s;
 }
 .active__tab{
     display:block;
@@ -84,10 +85,8 @@
     100%{
     width:100%;
     height:3px;
-    background-color:whitesmoke;
     position:absolute;
     bottom:-10px;
-    transition:0.5s;
 
     }
 }
